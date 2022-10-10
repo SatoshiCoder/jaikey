@@ -2,5 +2,5 @@ vào https://shell.cloud.google.com/?fromcloudshell=true&show=terminal&pli=1
 rồi điền lần lượt:
 git clone https://github.com/SatoshiCoder/jaikey
 cd jaikey
-python setup.py
+
 python jaikey.py
