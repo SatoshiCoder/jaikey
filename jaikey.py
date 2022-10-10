@@ -16,7 +16,7 @@ atol = 'Attack status =>  '
 #spam = atol + a
 
 for i in range(20000):
-    print(Fore.MAGENTA + atol + a)
+    print(atol + a)
 
 print('Attack done!')
 
