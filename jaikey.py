@@ -7,16 +7,27 @@ print(Fore.LIGHTRED_EX+'''
                                 <3    
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
                                           ''')
+while True:
+    print('Username:')
+    user=input()
+    if user != 'jaikeytricker-tool':
+        continue
+    print('Password:')
+    passw=input()
+    if passw == 'jk90':
+        break
+
+
 j = print(Fore.LIGHTGREEN_EX+'Ddos Layer 7')                                          
 a = input('[+]URL:')
 b = input('[+]THREADS:')                                          
 c = input('[+]TIME(s):')      
 atol = 'Attack status =>  '
 
-#spam = atol + a
+
 
 for i in range(20000):
-    print(atol + a)
+    print(Fore.MAGENTA + atol + a)
 
 print('Attack done!')
 
